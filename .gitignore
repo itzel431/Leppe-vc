@@ -1,0 +1,10 @@
+# Entorno virtual - no se sube nunca
+TRAIN/venv/
+
+# Archivos grandes de entrenamiento
+TRAIN/datos_capturados/
+TRAIN/modelo_rf.pkl
+TRAIN/*.csv
+
+# Modelo grande en assets (el de 51MB, warnings pero no error)
+assets/models/modelo_rf.pkl
